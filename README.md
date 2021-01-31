@@ -1,9 +1,9 @@
  
-  # PROFESSIONAL README
+  # HW9-READMEGENERATOR
   [![github-follow](https://img.shields.io/github/followers/leskbook?label=Follow&logoColor=purple&style=social)](https://github.com/leskbook)
-  [![project-languages-used](https://img.shields.io/github/languages/count/leskbook/HW9-ReadmeGenerator?color=important)](https://github.com/leskbook/HW9-ReadmeGenerator)
-  [![project-top-language](https://img.shields.io/github/languages/top/leskbook/HW9-ReadmeGenerator?color=blueviolet)](https://github.com/leskbook/HW9-ReadmeGenerator)
-  [![license](https://img.shields.io/badge/License-NONE-brightgreen.svg)](https://choosealicense.com/licenses/NONE/)
+  [![project-languages-used](https://img.shields.io/github/languages/count/leskbook/HW9_README_Generator?color=important)](https://github.com/leskbook/HW9_README_Generator)
+  [![project-top-language](https://img.shields.io/github/languages/top/leskbook/HW9_README_Generator?color=blueviolet)](https://github.com/leskbook/HW9_README_Generator)
+  [![license](https://img.shields.io/badge/License--brightgreen.svg)](https://choosealicense.com/licenses//)
   ## Table of Content
   * [ Project Links ](#Project-Links)
   * [ Screenshots-Demo ](#Screenshots)
@@ -18,25 +18,25 @@
   * [ License ](#License)
   #
   ##  Project Links
-  https://github.com/leskbook/HW9-ReadmeGenerator<br>
+  https://github.com/leskbook/HW9_README_Generator<br>
   
   ## Screenshots-Demo
-  <kbd>![screenshot-demo1](/lib/screen1.jpg)</kbd>
+  
   
   ## Project Objective
-  To create a project readme that is automatically created using user prompted input
+  As A developer I want a README generator so that I can quickly create a professional README for a new project
   
   ## User Story
-  AS A developer
+  As A developer I want a README generator so that I can quickly create a professional README for a new project
   ## Technologies 
   ```
-  SO THAT I can quickly create a professional README for a new project
+  Inquirer,Axios
   ```
   
   ## Installation
-  First install npm inquirer and install axios. Create a markdown.js to format and deliver readme 
+  First install Inquirer and then install axios. Build questions.js, markdown.js and a template. 
   ## Usage 
-  use command node to call index.js
+  At a command prompt, run node index.js
   
   ## Credits and Reference
   none
@@ -47,7 +47,7 @@
   Github link: [leskbook](https://github.com/leskbook)<br>
   Email: lesliek.book@gmail.com
   ## License
-  This project is [NONE](https://choosealicense.com/licenses/NONE/) licensed.<br />
+  This project is [](https://choosealicense.com/licenses//) licensed.<br />
   Copyright © 2021 [LESLIE BOOK](https://github.com/leskbook)
   
   <hr>
