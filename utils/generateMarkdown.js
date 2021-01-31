@@ -16,7 +16,7 @@ function generateMarkdown(userResponses, userInfo) {
   * [Tests](#tests)` };
 
 
-    // Generate markdown for the top section 
+    // Generate markdown 
     let draftMarkdown =
         `# ${userResponses.title}
   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor)
@@ -26,7 +26,7 @@ function generateMarkdown(userResponses, userInfo) {
   
   ## Description 
   
-  *The what, why, and how:* 
+  *Project objectives:* 
   
   ${userResponses.description}
   `
@@ -113,7 +113,7 @@ function generateMarkdown(userResponses, userInfo) {
   
   ![Developer Profile Picture](${userInfo.avatar_url}) 
   
-  For any questions, please contact me with the information below:
+  Contact me with question!:
  
   GitHub: [@${userInfo.login}](${userInfo.url})
   `;

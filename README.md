@@ -1,8 +1,8 @@
  
-  # README GENERATOR
+  # PROFESSIONAL README
   [![github-follow](https://img.shields.io/github/followers/leskbook?label=Follow&logoColor=purple&style=social)](https://github.com/leskbook)
-  [![project-languages-used](https://img.shields.io/github/languages/count/leskbook/HW9_README_Generator?color=important)](https://github.com/leskbook/HW9_README_Generator)
-  [![project-top-language](https://img.shields.io/github/languages/top/leskbook/HW9_README_Generator?color=blueviolet)](https://github.com/leskbook/HW9_README_Generator)
+  [![project-languages-used](https://img.shields.io/github/languages/count/leskbook/HW9-ReadmeGenerator?color=important)](https://github.com/leskbook/HW9-ReadmeGenerator)
+  [![project-top-language](https://img.shields.io/github/languages/top/leskbook/HW9-ReadmeGenerator?color=blueviolet)](https://github.com/leskbook/HW9-ReadmeGenerator)
   [![license](https://img.shields.io/badge/License-NONE-brightgreen.svg)](https://choosealicense.com/licenses/NONE/)
   ## Table of Content
   * [ Project Links ](#Project-Links)
@@ -18,30 +18,30 @@
   * [ License ](#License)
   #
   ##  Project Links
-  https://github.com/leskbook/HW9_README_Generator<br>
+  https://github.com/leskbook/HW9-ReadmeGenerator<br>
   
   ## Screenshots-Demo
-  <kbd>![screenshot-demo1](./utils/screen1.jpg)</kbd>
+  <kbd>![screenshot-demo1](/lib/screen1.jpg)</kbd>
   
   ## Project Objective
-  Every good project needs a quality README with information about the app - what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project.
+  To create a project readme that is automatically created using user prompted input
   
   ## User Story
-  This is a command-line application that runs with Node.js that dynamically generates a README.md file based on input about your project.
+  AS A developer
   ## Technologies 
   ```
-  inquirer, axios
+  SO THAT I can quickly create a professional README for a new project
   ```
   
   ## Installation
-  To generate your own README, first run npm install in order to install the following npm package dependencies as specified in the package.json:
+  First install npm inquirer and install axios. Create a markdown.js to format and deliver readme 
   ## Usage 
-  The application itself can be invoked with node index.js
+  use command node to call index.js
   
   ## Credits and Reference
   none
   ## Tests
-  test
+  node index.js
   ## Author Contact
   Contact the author with any questions!<br>
   Github link: [leskbook](https://github.com/leskbook)<br>
