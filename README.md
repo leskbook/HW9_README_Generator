@@ -1,16 +1,16 @@
  
-  # README GENERATOR
+  # PROFESSIONAL README GENERATOR
   [![github-follow](https://img.shields.io/github/followers/leskbook?label=Follow&logoColor=purple&style=social)](https://github.com/leskbook)
   [![project-languages-used](https://img.shields.io/github/languages/count/leskbook/HW9_README_Generator?color=important)](https://github.com/leskbook/HW9_README_Generator)
   [![project-top-language](https://img.shields.io/github/languages/top/leskbook/HW9_README_Generator?color=blueviolet)](https://github.com/leskbook/HW9_README_Generator)
   [![license](https://img.shields.io/badge/License--brightgreen.svg)](https://choosealicense.com/licenses//)
   ## Table of Content
   * [ Project Links ](#Project-Links)
+  * [ Installation ](#Installation)
   * [ Screenshots-Demo ](#Screenshots)
   * [ Project Objective ](#Project-Objective)
   * [ User Story ](#User-Story)
-  * [ Technologies ](#Technologies)
-  * [ Installation ](#Installation)
+  * [ Technologies ](#Technologies)   
   * [ Usage ](#Usage)
   * [ Credits and Reference ](#Credits-and-Reference)
   * [ Tests ](#Tests)
@@ -24,30 +24,31 @@
   
   
   ## Project Objective
-  Create a command line application that dynamically generates a prefessional README file from a user's input using Inquirer
+  When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions. The task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). 
   
   ## User Story
-  As a developer I want to generate a READme so that I can quickly create a professional README for a new project
+  As a developer I want a README generator so that I can quickly create a professional README for a new project.
   ## Technologies 
   ```
-  Inquirer, Axios
+  node, inquirer, axios
   ```
   
   ## Installation
-  Begin by installing Inquirer. Create gitnore file. 
+  This project is based on node.js. As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications Npm is the package manager for Node.js. First Inquirer is installed (npm install inquirer). This is the basis for all of the javascript used for this project. Next, Axios is installed (npm install axios). This will be used for the call to the github API to gather user information based on input.
   ## Usage 
-  invoke node index.js command
+  execute the command node index.js within a terminal window.
   
   ## Credits and Reference
   none
   ## Tests
-  node index.js
+  npm test
   ## Author Contact
-  Contact the author with any questions!<br>
+  Contact me with any questions!<br>
+  
   Github link: [leskbook](https://github.com/leskbook)<br>
   Email: lesliek.book@gmail.com
   ## License
-  This project is [](https://choosealicense.com/licenses//) licensed.<br />
+  This project license: [](https://choosealicense.com/licenses//)<br />
   Copyright © 2021 [LESLIE BOOK](https://github.com/leskbook)
   
   <hr>
