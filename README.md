@@ -1,5 +1,5 @@
  
-  # HW9-READMEGENERATOR
+  # README GENERATOR
   [![github-follow](https://img.shields.io/github/followers/leskbook?label=Follow&logoColor=purple&style=social)](https://github.com/leskbook)
   [![project-languages-used](https://img.shields.io/github/languages/count/leskbook/HW9_README_Generator?color=important)](https://github.com/leskbook/HW9_README_Generator)
   [![project-top-language](https://img.shields.io/github/languages/top/leskbook/HW9_README_Generator?color=blueviolet)](https://github.com/leskbook/HW9_README_Generator)
@@ -24,19 +24,19 @@
   
   
   ## Project Objective
-  As A developer I want a README generator so that I can quickly create a professional README for a new project
+  Create a command line application that dynamically generates a prefessional README file from a user's input using Inquirer
   
   ## User Story
-  As A developer I want a README generator so that I can quickly create a professional README for a new project
+  As a developer I want to generate a READme so that I can quickly create a professional README for a new project
   ## Technologies 
   ```
-  Inquirer,Axios
+  Inquirer, Axios
   ```
   
   ## Installation
-  First install Inquirer and then install axios. Build questions.js, markdown.js and a template. 
+  Begin by installing Inquirer. Create gitnore file. 
   ## Usage 
-  At a command prompt, run node index.js
+  invoke node index.js command
   
   ## Credits and Reference
   none
