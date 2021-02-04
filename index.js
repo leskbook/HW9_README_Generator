@@ -33,7 +33,6 @@ async function init() {
 
         console.log(JSON.stringify(answers, null, '\t'));
 
-
         const readme = generateREADME(answers);
 
         await writeFileAsync('README.md', readme);

@@ -4,29 +4,29 @@ function generateMarkdown(userResponses, userInfo) {
     let draftToC = `## Table of Contents`;
 
     if (userResponses.installation !== '') { draftToC += `
-  * [Installation](#installation)` }
+  * [Installation](#installation)` };
 
     if (userResponses.usage !== '') { draftToC += `
-  * [Usage](#usage)` }
+  * [Usage](#usage)` };
 
     if (userResponses.contributing !== '') { draftToC += `
-  * [Contributing](#contributing)` }
+  * [Contributing](#contributing)` };
 
     if (userResponses.tests !== '') { draftToC += `
-  * [Tests](#tests)` }
+  * [Tests](#tests)` };
 
 
-    // Generate markdown 
+    // Generate markdown for the top section 
     let draftMarkdown =
         `# ${userResponses.title}
   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor)
   
-  // Check out the badges hosted by [shields.io](https://shields.io/).
+  Check out the badges hosted by [shields.io](https://shields.io/).
   
   
   ## Description 
   
-  *Project objectives:* 
+  *The what, why, and how:* 
   
   ${userResponses.description}
   `
@@ -50,7 +50,7 @@ function generateMarkdown(userResponses, userInfo) {
   *Steps required to install project and how to get the development environment running:*
   
   ${userResponses.installation}`
-    }
+    };
 
 
     // Optional Usage section
@@ -65,7 +65,7 @@ function generateMarkdown(userResponses, userInfo) {
   *Instructions and examples for use:*
   
   ${userResponses.usage}`
-    }
+    };
 
 
     // Optional Contributing section
@@ -77,7 +77,7 @@ function generateMarkdown(userResponses, userInfo) {
   *If you would like to contribute follow these guidelines.*
   
   ${userResponses.contributing}`
-    }
+    };
 
 
     // Tests
@@ -91,7 +91,7 @@ function generateMarkdown(userResponses, userInfo) {
   *Tests for application and how to run them:*
   
   ${userResponses.tests}`
-    }
+    };
 
 
     // License
@@ -113,7 +113,7 @@ function generateMarkdown(userResponses, userInfo) {
   
   ![Developer Profile Picture](${userInfo.avatar_url}) 
   
-  Contact me with question!:
+  For any questions, please contact me with the information below:
  
   GitHub: [@${userInfo.login}](${userInfo.url})
   `;
@@ -125,7 +125,7 @@ function generateMarkdown(userResponses, userInfo) {
             `
   Email: ${userInfo.email}
   `
-    }
+    };
 
     // Add developer section to markdown
     draftMarkdown += draftDev;
