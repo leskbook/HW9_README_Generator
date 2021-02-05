@@ -37,7 +37,7 @@
   ## Installation
   Follow the link to the deployed application - "https://leskbook.github.io/HW6WeatherApp/"
   ## Usage 
-  Click on link, follow UI process
+  Click on deployed application link, follow UI process
   
   ## Credits and Reference
   none
