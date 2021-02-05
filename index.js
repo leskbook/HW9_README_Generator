@@ -1,14 +1,12 @@
-/* VARIABlES */
-
 //Import inquirer and node modules
 const { prompt } = require('inquirer');
 const { writeFile } = require('fs');
 const { promisify } = require('util');
 
-//Import questions.js 
+//Import questions 
 const questions = require('./lib/questions')
 
-// Import template.js
+// Import template
 const generateREADME = require('./lib/template')
 
 
@@ -16,7 +14,7 @@ const generateREADME = require('./lib/template')
 const writeFileAsync = promisify(writeFile);
 
 
-/* FUNCTIONS */
+
 
 // Begin
 console.log('Create a professional GitHub README');

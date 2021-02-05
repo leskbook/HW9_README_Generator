@@ -1,6 +1,6 @@
 function generateMarkdown(userResponses, userInfo) {
 
-    // Generate Table of Contents 
+    //Table of Contents 
     let draftToC = `## Table of Contents`;
 
     if (userResponses.installation !== '') { draftToC += `
@@ -16,7 +16,8 @@ function generateMarkdown(userResponses, userInfo) {
   * [Tests](#tests)` };
 
 
-    // Generate markdown for the top section 
+    // Generate markdown
+
     let draftMarkdown =
         `# ${userResponses.title}
   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor)
@@ -26,7 +27,7 @@ function generateMarkdown(userResponses, userInfo) {
   
   ## Description 
   
-  *The what, why, and how:* 
+  
   
   ${userResponses.description}
   `
@@ -47,7 +48,7 @@ function generateMarkdown(userResponses, userInfo) {
   
   ## Installation
   
-  *Steps required to install project and how to get the development environment running:*
+  
   
   ${userResponses.installation}`
     };
@@ -62,20 +63,18 @@ function generateMarkdown(userResponses, userInfo) {
   
   ## Usage 
   
-  *Instructions and examples for use:*
   
   ${userResponses.usage}`
     };
 
 
-    // Optional Contributing section
+
     if (userResponses.contributing !== '') {
         `
   
   ## Contributing
   
-  *If you would like to contribute follow these guidelines.*
-  
+    
   ${userResponses.contributing}`
     };
 
@@ -88,8 +87,7 @@ function generateMarkdown(userResponses, userInfo) {
   
   ## Tests
   
-  *Tests for application and how to run them:*
-  
+    
   ${userResponses.tests}`
     };
 
@@ -113,7 +111,7 @@ function generateMarkdown(userResponses, userInfo) {
   
   ![Developer Profile Picture](${userInfo.avatar_url}) 
   
-  For any questions, please contact me with the information below:
+  Questions?:
  
   GitHub: [@${userInfo.login}](${userInfo.url})
   `;

@@ -1,5 +1,5 @@
  
-  # README GENERATOR
+  # PROFESSIONAL README GENERATOR
   [![github-follow](https://img.shields.io/github/followers/leskbook?label=Follow&logoColor=purple&style=social)](https://github.com/leskbook)
   [![project-languages-used](https://img.shields.io/github/languages/count/leskbook/HW9_README_Generator?color=important)](https://github.com/leskbook/HW9_README_Generator)
   [![project-top-language](https://img.shields.io/github/languages/top/leskbook/HW9_README_Generator?color=blueviolet)](https://github.com/leskbook/HW9_README_Generator)
@@ -21,27 +21,27 @@
   https://github.com/leskbook/HW9_README_Generator<br>
   
   ## Screenshots-Demo
-  <kbd>![screenshot-demo1](./utils/screen1.jpg)</kbd>
+  
   
   ## Project Objective
-  Every good project needs a quality README with information about the app - what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project.
+  When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions. The task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).
   
   ## User Story
-  This is a command-line application that runs with Node.js that dynamically generates a README.md file based on input about your project.
+  As a developer I want a README generator so that I can quickly create a professional README for a new project.
   ## Technologies 
   ```
-  inquirer, axios
+  node.js, Inquirer, Axios
   ```
   
   ## Installation
-  To generate your own README, first run npm install in order to install the following npm package dependencies as specified in the package.json:
+  This project is based on node.js. As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications Npm is the package manager for Node.js. First Inquirer is installed (npm install inquirer). This is the basis for all of the javascript used for this project. Next, Axios is installed (npm install axios). This will be used for the call to the github API to gather user information based on input.
   ## Usage 
-  The application itself can be invoked with node index.js
+  Execute the node index.js in a terminal window
   
   ## Credits and Reference
   none
   ## Tests
-  test
+  npm test
   ## Author Contact
   Contact the author with any questions!<br>
   Github link: [leskbook](https://github.com/leskbook)<br>
