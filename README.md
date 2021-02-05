@@ -8,9 +8,9 @@ The assignment task is to create a command-line application that dynamically gen
 
 **Technologies Used**
 
- - node.js
- - Inquirer
- - Axios
+ - <a href="https://nodejs.org/en/node.js">Node.js</a>
+ - <a href="https://www.npmjs.com/package/inquirer">Inquirer</a>
+ - <a href="https://www.npmjs.com/package/axiosAxios">Axios</a>
 
 **Acceptance Criteria**
 
