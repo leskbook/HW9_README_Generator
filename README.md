@@ -21,7 +21,7 @@
   https://github.com/leskbook/HW9_README_Generator<br>
   
   ## Screenshots-Demo
-  
+  https://drive.google.com/file/d/1x6cHjbsJ6hzGnpykswCZsYp_PHP0-UbE/view
   
   ## Project Objective
   When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions. The task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).
