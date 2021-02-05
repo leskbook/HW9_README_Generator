@@ -1,16 +1,16 @@
 **Professional README Generator**
 
- - Link to github repository: https://github.com/leskbook/HW9_README_Generator
- - Link to application demonstration: https://drive.google.com/file/d/1x6cHjbsJ6hzGnpykswCZsYp_PHP0-UbE/view
+ - Link to GitHub repository: https://github.com/leskbook/HW9_README_Generator  
+ - Link to Application demo: https://drive.google.com/file/d/1x6cHjbsJ6hzGnpykswCZsYp_PHP0-UbE/view
 
+**Project Objectives**
+The assignment task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). The application should follow the README best practices. 
 
-The assignment was to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). 
-The user is prompted with questions and the README is dynamically created based on the input. There is an API included that populates the Author information based on the github user profile.
+**Technologies Used**
 
-**Technology Used**
-node.js
-Inquirer
-Axios
+ - node.js
+ - Inquirer
+ - Axios
 
 **Acceptance Criteria**
 
@@ -30,4 +30,3 @@ Axios
  - WHEN I click on the links in the Table of Contents
  - THEN I am taken to the corresponding section of the README
 
- 
