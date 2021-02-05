@@ -1,57 +1,33 @@
+**Professional README Generator**
+
+ - Link to github repository: https://github.com/leskbook/HW9_README_Generator
+ - Link to application demonstration: https://drive.google.com/file/d/1x6cHjbsJ6hzGnpykswCZsYp_PHP0-UbE/view
+
+
+The assignment was to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). 
+The user is prompted with questions and the README is dynamically created based on the input. There is an API included that populates the Author information based on the github user profile.
+
+**Technology Used**
+node.js
+Inquirer
+Axios
+
+**Acceptance Criteria**
+
+ - GIVEN a command-line application that accepts user input
+ - WHEN I am prompted for information about my application repository
+ - THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+ - WHEN I enter my project title
+ - THEN this is displayed as the title of the README
+ - WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+ - THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+ - WHEN I choose a license for my application from a list of options
+ - THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+ - WHEN I enter my GitHub username
+ - THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+ - WHEN I enter my email address
+ - THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+ - WHEN I click on the links in the Table of Contents
+ - THEN I am taken to the corresponding section of the README
+
  
-  # PROFESSIONAL README GENERATOR
-  [![github-follow](https://img.shields.io/github/followers/leskbook?label=Follow&logoColor=purple&style=social)](https://github.com/leskbook)
-  [![project-languages-used](https://img.shields.io/github/languages/count/leskbook/HW9_README_Generator?color=important)](https://github.com/leskbook/HW9_README_Generator)
-  [![project-top-language](https://img.shields.io/github/languages/top/leskbook/HW9_README_Generator?color=blueviolet)](https://github.com/leskbook/HW9_README_Generator)
-  [![license](https://img.shields.io/badge/License-NONE-brightgreen.svg)](https://choosealicense.com/licenses/NONE/)
-  ## Table of Content
-  * [ Project Links ](#Project-Links)
-  * [ Screenshots-Demo ](#Screenshots)
-  * [ Project Objective ](#Project-Objective)
-  * [ User Story ](#User-Story)
-  * [ Technologies ](#Technologies)
-  * [ Installation ](#Installation)
-  * [ Usage ](#Usage)
-  * [ Credits and Reference ](#Credits-and-Reference)
-  * [ Tests ](#Tests)
-  * [ Author Contact ](#Author-Contact)
-  * [ License ](#License)
-  #
-  ##  Project Links
-  https://github.com/leskbook/HW9_README_Generator<br>
-  
-  ## Screenshots-Demo
-  
-  
-  ## Project Objective
-  When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions. The task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).
-  
-  ## User Story
-  As a developer I want a README generator so that I can quickly create a professional README for a new project.
-  ## Technologies 
-  ```
-  node.js, Inquirer, Axios
-  ```
-  
-  ## Installation
-  This project is based on node.js. As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications Npm is the package manager for Node.js. First Inquirer is installed (npm install inquirer). This is the basis for all of the javascript used for this project. Next, Axios is installed (npm install axios). This will be used for the call to the github API to gather user information based on input.
-  ## Usage 
-  Execute the node index.js in a terminal window
-  
-  ## Credits and Reference
-  none
-  ## Tests
-  npm test
-  ## Author Contact
-  Contact the author with any questions!<br>
-  Github link: [leskbook](https://github.com/leskbook)<br>
-  Email: lesliek.book@gmail.com
-  ## License
-  This project is [NONE](https://choosealicense.com/licenses/NONE/) licensed.<br />
-  Copyright © 2021 [LESLIE BOOK](https://github.com/leskbook)
-  
-  <hr>
-  <p align='center'><i>
-  This README created by LESLIE BOOK
-  </i></p>
-  
