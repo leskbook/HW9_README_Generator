@@ -1,7 +1,7 @@
 **Professional README Generator**
 
  - Link to GitHub repository: https://github.com/leskbook/HW9_README_Generator  
- - Link to Application demo: <a href="https://drive.google.com/file/d/1x6cHjbsJ6hzGnpykswCZsYp_PHP0-UbE/view" target="_blank">Application Demo</a>
+ - Link to Application demo: <a href="https://drive.google.com/file/d/1x6cHjbsJ6hzGnpykswCZsYp_PHP0-UbE/view">Application Demo</a>
 
 **Project Objectives**
 The assignment task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). The application should follow the README best practices. 
