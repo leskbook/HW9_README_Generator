@@ -19,6 +19,7 @@
   #
   ##  Project Links
   https://github.com/leskbook/HW6WeatherApp<br>
+  https://leskbook.github.io/HW6WeatherApp/
   
   ## Screenshots-Demo
   <kbd>![screenshot-demo1](https://github.com/leskbook/HW6WeatherApp/raw/main/assets/images/search.png)</kbd>
